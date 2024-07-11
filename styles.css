@@ -1,0 +1,95 @@
+@import "font.css";
+
+* {
+    font-family: Raleway, sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav_menu {
+    text-decoration: none;
+    color:rgb(99, 66, 9);
+    padding: 10px;
+}
+
+.nav_menu:hover {
+   color: rgb(220, 176, 119);
+   border-radius: 10%;
+}
+
+.wrap {
+    display: flex;
+}
+
+.img {
+    background-color: rgba(220, 176, 119, 0.3);
+    text-align: center;
+    border-radius: 5%;
+    margin: 30% 0 3% 5%;
+}
+
+.img_profile {
+    width: 250px;
+    height: 350px;
+    border: 2px solid rgb(232, 224, 200);
+    border-radius: 5%;
+}
+
+h1 {
+    color: rgb(17, 6, 19);
+    text-align: center;
+}
+
+.title {
+    font-family: "Playfair_Display";
+}
+
+h2 {
+    color:rgb(87, 54, 0);
+}
+
+.title2 {
+    font-family: "Playfair_Display", serif;
+}
+
+.info {
+    margin-left: 5%;
+}
+
+.section {
+    padding-left: 20px;
+    position: relative;
+    color: rgb(29, 1, 29);
+}
+
+.section::before {
+    content: "\22B9";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color:rgb(117, 86, 8);
+}
+
+
+/* .down_up {
+    text-decoration: none;
+    color:black;
+} */
+
+.wrap_footer {
+    position: sticky;
+    bottom: 0;
+}
+
+.wrap_footer_contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
